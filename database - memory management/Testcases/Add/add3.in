@@ -1,0 +1,12 @@
+SET a 2 1 3 4
+SET b 2 1 3 a
+SET c 2 1 5
+push c a
+get c
+push c b
+get c
+pick c 4
+append b a
+get b
+pick c 5
+bye

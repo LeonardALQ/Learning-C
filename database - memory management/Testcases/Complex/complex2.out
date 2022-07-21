@@ -1,0 +1,78 @@
+> ok
+
+> ok
+
+> not permitted
+
+> saved as snapshot 1
+
+> ok
+
+> saved as snapshot 2
+
+> not permitted
+
+> ok
+
+> saved as snapshot 3
+
+> ok
+
+> ok
+
+> saved as snapshot 4
+
+> ok
+
+> bananas [apples]
+apples [1000 2000 3000 4000 5000]
+
+> bananas
+apples
+
+> 4
+3
+2
+1
+
+> ok
+
+> saved as snapshot 5
+
+> ok
+
+> bananas [apples]
+apples [1000 2000 3000 4000 5000]
+
+> bananas
+apples
+
+> 1
+
+> no such snapshot
+
+> no such snapshot
+
+> saved as snapshot 6
+
+> ok
+
+> no such key
+
+> no such key
+
+> [1000 2000 3000 4000 5000]
+
+> 6
+1
+
+> not permitted
+
+> ok
+
+> [1000 2000 3000 4000 5000]
+
+> no such snapshot
+
+> 
+bye

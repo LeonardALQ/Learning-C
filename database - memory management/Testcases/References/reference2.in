@@ -1,0 +1,18 @@
+SET a 1 2 3 4
+SET b a a a
+SET c 1 2 3 4
+SET d c b
+SET e 21 3 4 5
+SET f e
+backward a
+backward b
+backward c
+backward d
+backward e
+backward f
+forward a
+forward b
+forward c
+forward d
+forward e
+forward f

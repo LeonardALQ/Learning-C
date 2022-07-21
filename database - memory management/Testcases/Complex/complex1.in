@@ -1,0 +1,19 @@
+SET entry1 123 125 342 12321432 5434312 3213 432432
+SET entry2 32 342321 3424 23432 entry1 entry1 432423 5434532
+snapshot
+pop entry1
+pop entry2
+del entry1
+purge entry1
+del entry2
+del entry1
+purge entry1
+snapshot
+checkout 1
+get entry1
+get entry2
+checkout 2
+list entries
+rollback 1
+drop 1
+checkout 1

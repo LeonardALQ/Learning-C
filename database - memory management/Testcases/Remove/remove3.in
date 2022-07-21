@@ -1,0 +1,16 @@
+SET a 1 2 3 4
+SET b 2 1 3 4 a
+SET c 2 1 3 4 b
+del b
+del a
+type b
+pop b
+get b
+del a
+list entries
+type b
+pluck c 5
+type c
+list entries
+del c
+list entries

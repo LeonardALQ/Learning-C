@@ -1,0 +1,23 @@
+SET a 1 2 3 4
+SET b 2 1 3 4
+forward a
+backward b
+push a b 
+forward a
+backward b
+pop a
+forward a
+backward b
+append a b
+forward a
+backward b
+pluck a 5
+forward a
+backward b
+del a
+forward a
+backward b
+del b
+del a
+forward a
+backward b

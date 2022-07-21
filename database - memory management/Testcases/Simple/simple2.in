@@ -1,0 +1,8 @@
+SET a 1 2 3 4
+REV a
+get a
+sort a
+get a
+SET b 11 11 22 33 44 44
+uniq b
+get b

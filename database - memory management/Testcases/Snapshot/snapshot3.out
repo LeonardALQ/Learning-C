@@ -1,0 +1,71 @@
+> ok
+
+> ok
+
+> ok
+
+> saved as snapshot 1
+
+> ok
+
+> saved as snapshot 2
+
+> ok
+
+> saved as snapshot 3
+
+> ok
+
+> bananas [oranges apples]
+apples [oranges 21 33]
+oranges [21 2 34 54 2432]
+
+> bananas
+apples
+oranges
+
+> 3
+2
+1
+
+> ok
+
+> bananas [oranges apples]
+apples [oranges 21 33]
+oranges [21000]
+
+> bananas
+apples
+oranges
+
+> 3
+2
+1
+
+> ok
+
+> bananas [oranges apples]
+apples []
+oranges [21000]
+
+> bananas
+apples
+oranges
+
+> 3
+2
+1
+
+> ok
+
+> bananas [oranges apples]
+apples [oranges 21 33]
+oranges [21 2 34 54 2432]
+
+> bananas
+apples
+oranges
+
+> 
+> 
+bye

@@ -1,0 +1,34 @@
+SET apples 1000 2000 3000 4000 5000
+SET bananas apples
+PUSH apples apples
+snapshot
+SET oranges apples bananas 
+snapshot
+del apples
+del oranges
+snapshot
+checkout 2
+append apples oranges
+snapshot
+checkout 3
+list entries
+list keys
+list snapshots
+SET kiwis 2000 3324 12321 4321 32 43243132 231 321 321 3211
+snapshot
+rollback 1
+list entries
+list keys
+list snapshots
+drop 2
+drop 3
+snapshot
+checkout 1
+get kiwis
+del kiwis
+get apples
+list snapshots
+purge apples
+purge bananas
+get apples
+rollback 2

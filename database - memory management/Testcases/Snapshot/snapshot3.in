@@ -1,0 +1,24 @@
+SET oranges 21 2 34 54 2432
+SET apples oranges 21 33
+SET bananas oranges apples
+snapshot
+SET oranges 21000
+snapshot
+SET apples
+snapshot
+checkout 1
+list entries
+list keys
+list snapshots
+checkout 2
+list entries
+list keys
+list snapshots
+checkout 3
+list entries
+list keys
+list snapshots
+checkout 1
+list entries
+list keys
+list snapshots

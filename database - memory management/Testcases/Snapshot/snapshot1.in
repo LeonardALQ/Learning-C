@@ -1,0 +1,13 @@
+snapshot
+set a 1 2 3 4
+get a
+snapshot
+checkout 1
+get a
+list entries
+list keys
+list snapshots
+checkout 2
+list entries
+list keys
+list snapshots

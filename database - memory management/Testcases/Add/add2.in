@@ -1,0 +1,12 @@
+SET a 1 2 3 4
+PUSH a 11
+get a
+APPEND a 2321
+get a
+PICK a 2
+PICK a 3
+PICK a 1
+list entries
+type a
+help
+bye

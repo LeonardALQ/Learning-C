@@ -1,0 +1,15 @@
+SET tenK 1000 2000 3000 4000
+SET hundredK tenK 40000 50000
+SET million hundredK 400000 500000
+MIN tenK
+MAX tenK
+SUM tenK
+LEN tenK
+MIN hundredK
+MAX hundredK
+SUM hundredK
+LEN hundredK
+MIN million
+MAX million
+SUM million
+LEN million

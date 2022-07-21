@@ -1,0 +1,5 @@
+backward a
+forward a
+SET a 1 2 3 4
+backward a
+forward a

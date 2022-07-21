@@ -1,0 +1,8 @@
+REV a
+UNIQ a
+SORT a
+SET a 2 1 3
+SET b 2 1 3 4 a
+REV b
+UNIQ b
+SORT b

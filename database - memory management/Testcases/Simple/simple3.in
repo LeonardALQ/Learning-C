@@ -1,0 +1,8 @@
+SET a
+get a
+REV a
+get a
+UNIQ a
+get a
+SORT a
+get a

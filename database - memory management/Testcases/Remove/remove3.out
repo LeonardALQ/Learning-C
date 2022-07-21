@@ -1,0 +1,37 @@
+> ok
+
+> ok
+
+> ok
+
+> not permitted
+
+> not permitted
+
+> general
+
+> 2
+
+> [1 3 4 a]
+
+> not permitted
+
+> c [2 1 3 4 b]
+b [1 3 4 a]
+a [1 2 3 4]
+
+> general
+
+> b
+
+> simple
+
+> c [2 1 3 4]
+b [1 3 4 a]
+a [1 2 3 4]
+
+> ok
+
+> 
+> 
+bye

@@ -1,0 +1,15 @@
+SET a 1 2 3 4
+SET b 2 1 3
+POP a
+get a
+list entries
+del b
+get b
+list entries
+pluck a 1
+pop a
+get a
+list entries
+del a
+get a
+list keys

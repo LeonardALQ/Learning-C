@@ -1,0 +1,12 @@
+set a 1 2 3 4
+set b a 2 1 3
+set c b
+SET d 3 4 5 2
+backward a
+backward b
+backward c
+backward d
+forward a
+forward b
+forward c
+forward d

@@ -1,0 +1,19 @@
+DEL a 
+POP a
+PLUCK a
+Set a 1 2 3
+get a
+DEL a
+get a
+list entries
+list keys
+set a 2 1 3 4 
+pluck a 5
+set b
+get b
+pop b
+pluck b 0
+SET a
+get a
+pop a
+list entries

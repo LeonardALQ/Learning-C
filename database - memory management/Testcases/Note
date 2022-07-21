@@ -1,0 +1,35 @@
+
+Type "make test" to run tests 
+
+Complex: Tests a combination of functions 
+Add: PUSH, APPEND, PICK, TYPE  
+    1: Testing invalid inputs (invalid key, out of bounds, non existing entry, longer than max, cycle references)
+    2: Testing valid input (simple) 
+    3: Testing valid inputs (general)
+    4: Test that type is updated correctly. 
+Remove: DEL, POP, PLUCK, TYPE
+    1: Testing invalid inputs (invalid key, out of bounds, non existing entry, empty)
+    2: Testing valid input (simple)
+    3: Testing valid inputs (general) and test that type is updated correctly. 
+Data: MIN, MAX, LEN, SUM
+    1: Testing invalid input (empty entries, non existant entries)
+    2: Testing simple entries 
+    3: Testing general entries (3 times nested)
+Snapshot: SNAPSHOT, ROLLBACK, CHECKOUT, PURGE, DROP
+    1: Testing changing from valid snapshot to empty snapshot
+    2: Testing checkout to the same snapshot 
+    3: Testing checkout between multiple snapshots
+    4: Testing purge after rollback 
+    5: Testing checkout and rollback after drop
+References: BACKWARD and FORWARD 
+    1: Testing valid inputs 
+    2: Testing duplicate references 
+    3: Testing invalid inputs (no keys, empty)
+    4: Testing modifying with POP, PUSH, APPEND, DEL, PLUCK
+    5: Testing duplicate references with modification. 
+Simple: REV, UNIQ, SORT 
+    1: Testing invalid inputs (no keys, non-simple)
+    2: Testing valid inputs 
+    3: Testing empty 
+
+GET, SET LIST, HELP, TYPE are tested throughout. 

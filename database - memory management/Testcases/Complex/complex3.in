@@ -1,0 +1,21 @@
+SET a 1 2 3 4
+SET b 2 1 3 4
+snapshot
+SET c 2 1 3 4 5
+snapshot
+purge a
+checkout 1
+get a
+get b
+get c
+list entries
+set b 2 1 3 a
+set b b
+set a 21 4 5
+list entries
+snapshot
+checkout 3
+list entries
+list snapshots
+checkout 2
+rollback 1

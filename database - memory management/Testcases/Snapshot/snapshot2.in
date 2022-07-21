@@ -1,0 +1,11 @@
+SET a 1 2 3 4
+SET b 2 1 3 4 a
+SET c 2 1 3 4 b
+snapshot
+list entries
+list keys
+list snapshots
+checkout 1
+list entries
+list keys
+list snapshots

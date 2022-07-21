@@ -1,0 +1,12 @@
+PUSH a 2 1 3
+APPEND a 2 1
+PICK a 2
+SET a 2 1 3 4
+PUSH a b
+PUSH a a
+APPEND a a
+APPEND a b
+PUSH a
+APPEND a
+get a
+PICK a 5
